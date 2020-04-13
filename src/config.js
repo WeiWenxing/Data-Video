@@ -21,7 +21,7 @@
   // 开启auto_sort可以实现时间的自动补间。
   // Auto Sort by Time
   // Please ensure using standard datetime format (YYYY-MM-DD HH:MM) when this term is enabled!!!
-  auto_sort: false,
+  auto_sort: true,
 
   // 时间格式化
   timeFormat: "%Y-%m-%d",
@@ -30,14 +30,14 @@
   reverse: false,
 
   // 类型根据什么字段区分？如果是name，则关闭类型显示
-  divide_by: "type",
+  divide_by: "name",
 
   // 颜色根据什么字段区分？
   divide_color_by: "name",
 
   // 字段的值与其对应的颜色值
   color: {
-    Chinese: "#1177CC",
+    China: "#1177CC",
     Japanese: "#667788"
   },
 
@@ -53,14 +53,14 @@
 
   // 附加信息内容。
   // left label
-  itemLabel: "左侧文字",
+  itemLabel: "",
 
   // right label
-  typeLabel: "右侧文字",
+  typeLabel: "Total Cases",
 
   // 榜首项目信息的水平位置 。
   // Top item information horizontal location
-  item_x: 250,
+  item_x: 50,
 
   // 时间点间隔时间。
   interval_time: 1,
@@ -75,7 +75,7 @@
 
   // 长度小于display_barInfo的bar将不显示barInfo。
   // Hide barInfo if bar is shorter than barInfo
-  display_barInfo: 0,
+  display_barInfo: 10000000,
 
   // 使用计数器
   // 注意！使用计时器和使用类型目前不能兼容，即不能同时开启！
@@ -145,7 +145,7 @@
   showLabel: true,
 
   // label x轴位置
-  labelx: -10,
+  labelx: 0,
 
   use_img: true,
 
