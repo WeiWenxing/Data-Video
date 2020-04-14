@@ -56,7 +56,7 @@
   itemLabel: "",
 
   // right label
-  typeLabel: "Total Cases",
+  typeLabel: "Total Death",
 
   // 榜首项目信息的水平位置 。
   // Top item information horizontal location
@@ -75,7 +75,7 @@
 
   // 长度小于display_barInfo的bar将不显示barInfo。
   // Hide barInfo if bar is shorter than barInfo
-  display_barInfo: 10000000,
+  display_barInfo: 10,
 
   // 使用计数器
   // 注意！使用计时器和使用类型目前不能兼容，即不能同时开启！
@@ -105,7 +105,7 @@
 
   // 图表左右上下间距。
   // 注意，left_margin不包括左侧的label，修改数值较小会导致左侧label不显示
-  left_margin: 250,
+  left_margin: 600,
   right_margin: 150,
   top_margin: 180,
   bottom_margin: 0,
@@ -145,7 +145,7 @@
   showLabel: true,
 
   // label x轴位置
-  labelx: 0,
+  labelx: -50,
 
   use_img: true,
 
